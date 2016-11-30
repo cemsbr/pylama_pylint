@@ -3,15 +3,26 @@ Pylama_pylint
 
 pylama-pylint -- Support Pylint_ in Pylama_.
 
-.. image:: http://img.shields.io/travis/klen/pylama_pylint.svg?style=flat-square
-    :target: http://travis-ci.org/klen/pylama_pylint
+.. image:: http://img.shields.io/travis/cemsbr/pylama_pylint.svg?style=flat-square
+    :target: http://travis-ci.org/cemsbr/pylama_pylint
     :alt: Build Status
 
-.. image:: http://img.shields.io/pypi/v/pylama_pylint.svg?style=flat-square
-    :target: https://crate.io/packages/pylama
-    :alt: Version
-
 .. contents::
+
+
+Fork Considerations
+===================
+
+This fork uses the latest pylint, fix an important speed issue and other minor
+bugs. If you want to use this fork instead of the official pypi package, run::
+
+    pip uninstall pylama_pylint
+    pip install git+git://github.com/cemsbr/pylama_pylint.git@master
+
+Alternatively, you can use a commit SHA instead of *master* and/or add
+``git+git...`` to a requirements file.
+
+The other README sections are unaltered.
 
 
 Requirements
